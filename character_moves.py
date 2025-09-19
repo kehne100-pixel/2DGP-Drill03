@@ -59,7 +59,7 @@ def draw_boy(x: float, y: float):
     clear_canvas_now()
     boy.draw_now(x, y)
     grass.draw_now(400, 30)
-    delay(0.1)
+    delay(0.01)
 
 def move_up_diagonal():
    for x in range(0, 400, 5):
@@ -93,12 +93,13 @@ def move_triangle():
     pass
 
 while True:
-    # move_circle()
-    #move_rectangle()
-    move_triangle()
+     move_circle()
+     move_rectangle()
+     move_triangle()
+
+     pass
 
 
 
-    pass
 
 close_canvas()
